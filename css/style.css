@@ -9,3 +9,76 @@
    height: auto;
    text-align: center;
 }
+.image {
+   margin-top: 10px;
+}
+
+.searchbox {
+   height: auto;
+   background-color: rgb(233, 230, 230);
+   padding: 5px 0;
+}
+
+label,
+input {
+   display: block;
+   margin: auto;
+   width: 25%;
+   margin-bottom: 5px;
+}
+.samelinks {
+   border: 1px solid rgb(207, 203, 203);
+   border-radius: 4px;
+   background-color: rgb(209, 203, 203);
+   padding: 4px;
+   text-decoration: none;
+   color: black;
+   margin-right: 3px;
+}
+.mainbox1 {
+   padding-top: 8px;
+}
+.mainbox1 > a {
+   display: block;
+   margin-top: 5px;
+   color: rgb(17, 17, 233);
+}
+.mainbox2 > a {
+   display: block;
+   margin: 3px 0;
+   color: rgb(17, 17, 233);
+}
+.mainbox3 > input {
+   width: 30%;
+}
+.mainbox3-link {
+   color: rgb(17, 17, 233);
+   margin-left: 5px;
+}
+
+.mainbox1 {
+   width: 30%;
+   height: 90px;
+   background-color: rgb(85, 224, 210);
+   float: left;
+   margin-right: 5px;
+}
+.mainbox2 {
+   width: 20%;
+   height: 90px;
+   background-color: rgb(74, 170, 160);
+   float: left;
+   margin-right: 5px;
+}
+.mainbox3 {
+   width: 49.3%;
+   height: 90px;
+   background-color: rgb(86, 196, 185);
+   float: left;
+}
+footer {
+   text-align: center;
+   font-weight: bold;
+   font-size: 17px;
+   margin-top: 110px;
+}
